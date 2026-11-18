@@ -1,3 +1,3 @@
-import { paraRuta } from '../vercel.mjs';
+import { paraRuta } from '../adaptador.mjs';
 
 export default paraRuta('/search');

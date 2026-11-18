@@ -1,0 +1,11 @@
+/.local-ri/
+/datos/nfcorpus/
+/examen1bim.ipynb
+/Examen_RI.md
+/verificar_entrega.py
+/servicio/.gitignore
+/servicio/README.md
+/servicio/package.json
+/servicio/preparar.mjs
+/servicio/node_modules/
+.ipynb_checkpoints/

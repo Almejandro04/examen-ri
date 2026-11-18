@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/*.mjs": {
+      "includeFiles": "indice.json.gz"
+    }
+  },
+  "rewrites": [
+    { "source": "/", "destination": "/api/health" },
+    { "source": "/health", "destination": "/api/health" },
+    { "source": "/search", "destination": "/api/search" }
+  ]
+}

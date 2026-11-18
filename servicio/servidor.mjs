@@ -9,7 +9,7 @@ import { buscar } from './motor.mjs';
 
 const archivoIndice = new URL('./indice.json.gz', import.meta.url);
 const indice = JSON.parse(gunzipSync(readFileSync(archivoIndice)).toString('utf8'));
-const servicio = crearServicio(() => indice, buscar);
+export const servicio = crearServicio(() => indice, buscar);
 
 export function servir(host, puerto) {
   const servidor = createServer(async (req, res) => {
